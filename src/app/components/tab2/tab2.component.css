@@ -1,0 +1,65 @@
+
+body,html {
+    margin:0;
+    padding:0;
+}
+
+.padre {
+  background: #ffffff;
+  height: 600px;
+
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: center;
+
+}
+
+.hijo {
+  margin-top: 10px;
+  background:  #A7DB8C;
+  width: 800px;
+  height: 570px;
+  border-style: solid;
+  border-radius: 40px;
+  border-color: #a0ffb0;
+  display: flex;
+  justify-content: center;
+}
+
+.nieto_nombre{
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: 'Lucida Sans';
+    color: rgb(29, 29, 29);
+    text-align: center;
+}
+
+.nieto_description
+{
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    color: rgb(29, 29, 29);
+    border-style: solid;
+    border-color:#a0ffb0 ;
+    border-radius: 20px;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.nieto_birthday
+{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    color: rgb(29, 29, 29);
+    border-style: solid;
+    border-color:#a0ffb0 ;
+    border-radius: 20px;
+    width: 500px;
+
+    padding: 10px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
